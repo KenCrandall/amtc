@@ -11,7 +11,7 @@ JQUERYUI    = 1.12.1
 BOOTSTRAP   = 3.3.7
 EMBERJS     = 1.13.11
 EMBERDATA   = 1.13.15
-FONTAWESOME = 4.7.0
+FONTAWESOME = master
 
 SHELL = bash
 MERGE_JS    ?= YES
@@ -185,7 +185,7 @@ css/sb-admin-2.css:
 	rm -rf startbootstrap-sb-admin-2-3.3.7-1 sb.zip
 
 fonts/fontawesome-webfont.woff:
-	curl -Lso fa.zip http://fortawesome.github.io/Font-Awesome/assets/font-awesome-$(FONTAWESOME).zip
+	curl -Lso fa.zip https://github.com/onface/font-awesome/archive/refs/heads/master.zip
 	unzip -q fa.zip
 	mv font-awesome-$(FONTAWESOME)/css/font-awesome.min.css css
 	mkdir -p fonts
