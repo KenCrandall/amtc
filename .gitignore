@@ -29,6 +29,7 @@ src/amtc
 src/amtc_usage.h
 src/cmd_*.h
 src/wsman_*.h
+src/amtc-amtterm.c
 
 releases/
 osxpkgroot/
